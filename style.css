@@ -1,14 +1,60 @@
-div {
-    background-color: #e9edc9;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-  }
-  
-  img {
-    max-width: 80%;
-  }
-  
-  #header {
-    background-color: #d4a373;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Intro Section */
+#intro {
+  background-color: #dfefff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* About Me Section */
+#about {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-top: 20px;
+  border-left: 5px solid #0077cc;
+  border-radius: 4px;
+}
+
+/* Achievements Section */
+#achievements {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.achievement {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/* Other Links Section */
+#other {
+  background-color: #e6f7ff;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+#other ul {
+  list-style-type: square;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
